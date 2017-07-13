@@ -17,12 +17,12 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.extra_rdoc_files = ["README.md"]
 
-  s.required_ruby_version = '~> 2.0'
+  s.required_ruby_version = '>= 2.0'
 
   s.add_dependency "json-schema", "~> 2.5", ">= 2.5.1"
-  s.add_dependency "sinatra", "~> 1.4"
-  s.add_dependency "sinatra-contrib", "~>1.4"
+  s.add_dependency "sinatra", "~> 2"
+  s.add_dependency "sinatra-contrib", "~> 2"
 
-  s.add_development_dependency "rake", "~> 10.4"
+  s.add_development_dependency "rake"
   s.add_development_dependency "rspec", "~> 3.0"
 end
